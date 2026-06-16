@@ -34,7 +34,10 @@ thu_nhap_tinh_thue = a - tong_giam_tru
 if thu_nhap_tinh_thue < 0:
     thu_nhap_tinh_thue = 0
 
-# Tính thuế TNCN theo biểu thuế lũy tiến từng phần
+# Nút tính toán
+if st.button("Tính toán"):
+
+    # Tính thuế TNCN theo biểu thuế lũy tiến từng phần
 thue_tncn = 0
 if thu_nhap_tinh_thue > 0:
     # Bậc 1: Đến 10 triệu
@@ -53,9 +56,8 @@ if thu_nhap_tinh_thue > 0:
     else:
         thue_tncn = (10000000 * 0.05) + (20000000 * 0.10) + (30000000 * 0.20) + (40000000 * 0.30) + ((thu_nhap_tinh_thue - 100000000) * 0.35)
 
-# Nút tính toán
-if st.button("Tính toán"):
-
+    st.success("Kết quả tính toán")
+    
     st.write(
         f"📌 Tổng thu nhập tính thuế: **{thu_nhap_tinh_thue:,.2f} đồng**"
     )
