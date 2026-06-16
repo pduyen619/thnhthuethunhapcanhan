@@ -38,7 +38,7 @@ if thu_nhap_tinh_thue < 0:
 if st.button("Tính toán"):
 
 # Tính thuế TNCN theo biểu thuế lũy tiến từng phần
-thue_tncn = 0
+    thue_tncn = 0
 if thu_nhap_tinh_thue > 0:
     # Bậc 1: Đến 10 triệu
     if thu_nhap_tinh_thue <= 10000000:
