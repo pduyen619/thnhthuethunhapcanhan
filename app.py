@@ -65,6 +65,3 @@ if thu_nhap_tinh_thue > 0:
     st.write(
         f"📌 Thuế thu nhập cá nhân phải nộp: **{thue_tncn:,.2f} đồng**"
     )
-else:
-    st.write("🎉 Bạn không phải nộp thuế thu nhập cá nhân!")
-    
