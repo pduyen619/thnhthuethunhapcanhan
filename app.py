@@ -65,5 +65,5 @@ if st.button("Tính toán"):
     )
 else:
     st.write("🎉 Bạn không phải nộp thuế thu nhập cá nhân!")
-     st.write("Kết quả tính toán")
+     st.success("Kết quả tính toán")
     
