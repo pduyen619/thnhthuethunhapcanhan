@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Thiết lập tiêu đề cho ứng dụng web
-st.title("🧮 Ứng dụng Tính Thuế Thu Nhập Cá Nhân (TNCN)")
+st.title(" Ứng dụng Tính Thuế Thu Nhập Cá Nhân (TNCN)")
 st.write("Nhập thông tin thu nhập của bạn dưới đây để tính toán số thuế phải nộp.")
 
 # Nhập dữ liệu
